@@ -38,29 +38,29 @@
 - start the application.
     ```bash
     cd ram
-    python manage.py runserver
+    python manage.py run server
     ```
 - to stop the server press ctrl+c.
 
 > ## Contribution
-To Contribute in this project follow below command.
+To Contribute to this project follow the below command.
 - fork the current repository.
-- after fork this repository, it will be created one more repository in your github accout with `username/MLGUI-backend`. and click on `username/MLGUI-backend` repository.
-- go to code button, and copy the repository url.
-- create a isolated `folder` for this project in your `local computer`.
-- open particular folder with `vs code` or any other editor.
-- open the terminal at created new folder location, and run below command.
+- after forking this repository, one will be created one more repository in your GitHub account with `username/MLGUI-backend`. and click on the `username/MLGUI-backend` repository.
+- go to the code button, and copy the repository URL.
+- create an isolated `folder` for this project on your `local computer`.
+- open a particular folder with `vs code` or any other editor.
+- open the terminal at the created new folder location, and run the below command.
     ```git
     git clone https://github.com/nhyadav/MLGUI-backend.git
-    #copy above link from your github account repository.
+    #copy the above link from your GitHub account repository.
     ```
-- after cloning this repository, lets check out that repository is up to date or not.
+- after cloning this repository, let's check whether the repository is up to date or not.
     ```git
     git remote -v
-    # there will be two name 1 is upstream and 2 is origin. if upstream is not visible then create upstream with below command.
+    # There will be two names 1 is upstream and 2 is origin. if upstream is not visible then create upstream with the below command.
     
     git remote add upstream git@github.com:nhyadav/mock-interview-with-AI.git
-    #copy above link from source repository page. that is already mention above.
+    #copy the above link from the source repository page. that is already mentioned above.
 
     git pull upstream 
     ```
@@ -68,22 +68,22 @@ To Contribute in this project follow below command.
     ```git
     git checkout -b branch_name
     ```
-    above command ceate a new branch and set it for running current branch state. after this any editing in code will be save in new created branch. to check running branch run the below command output will be list of the branch, running branch represent with `*branch_name`.
+    above command creates a new branch and sets it for running the current branch state. after this, any editing in code will be saved in the newly created branch. to check the running branch run the below command output will be a list of the branch, the running branch is represented with `*branch_name`.
     ```git
     git branch
     ```
-- after editing the code part, you need to save your changes and pull that changes to master repository wwith below command.
+- after editing the code part, you need to save your changes and pull those changes to the master repository with the below command.
     ```git
-    git add . 
-    # we can use "git add -A" or "git add --a"
-    git commit -m "message what you have maked changes in repository"
+    git add. 
+    # We can use "git add -A" or "git add --a"
+    git commit -m "message what you have made changes in the repository"
     git push -u origin branch_name
-    #we can use "git push origin branch_name" also without -u flag.
+    #we can use "git push origin branch_name" without the -u flag.
     ```
 
 
-> ## Contibutor
-- Narayan Hari Yadav
+> ## Contributor
+:) Manish Gupta 
 
 
 # * Thank You! *
