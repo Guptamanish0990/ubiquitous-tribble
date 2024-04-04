@@ -3,11 +3,11 @@
 
 > ## Technology
 - Python
-- django 3.2
+- Django 3.2
 - MySQL
 - HTML
 - CSS
-- Bootsrap
+- Bootstrap
 - Machine Learning
 - React.js
 - D3.js
@@ -27,10 +27,7 @@
     ```git
     conda create -n env_name python=version -y
     ```
-- clone the repository.
-    ```git
-    git clone https://github.com/nhyadav/MLGUI-backend.git
-    ```
+
 - install all dependencies.
     ```git
     pip install -r requirements.txt
@@ -45,22 +42,18 @@
 > ## Contribution
 To Contribute to this project follow the below command.
 - fork the current repository.
-- after forking this repository, one will be created one more repository in your GitHub account with `username/MLGUI-backend`. and click on the `username/MLGUI-backend` repository.
+- after forking this repository, another will be created one more repository in your GitHub account with `username/MLGUI-backend`. and click on the `username/MLGUI-backend` repository.
 - go to the code button, and copy the repository URL.
 - create an isolated `folder` for this project on your `local computer`.
 - open a particular folder with `vs code` or any other editor.
 - open the terminal at the created new folder location, and run the below command.
     ```git
-    git clone https://github.com/nhyadav/MLGUI-backend.git
-    #copy the above link from your GitHub account repository.
+  
     ```
 - after cloning this repository, let's check whether the repository is up to date or not.
     ```git
     git remote -v
     # There will be two names 1 is upstream and 2 is origin. if upstream is not visible then create upstream with the below command.
-    
-    git remote add upstream git@github.com:nhyadav/mock-interview-with-AI.git
-    #copy the above link from the source repository page. that is already mentioned above.
 
     git pull upstream 
     ```
